@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Forms in Html</h2>
+    <!--Use form tag to collect user input-->
+    <form action="app.html">
+
+        <!--Input tags
+        Username: <input type="text"> <br><br>
+        Password: <input type="text"> <br><br>
+        <input type="Button" value="Submit">
+        -->
+        <div>
+            <label for="my-input">Username: </label>
+            <input type="text" name="myName" id="My-input" placeholder="Enter your Username">
+        </div>
+        <br>
+        <div>
+            <label for="my-input">Password: </label>
+            <input type="password" name="myPassword" id="myPassword" placeholder="Enter your Password">
+        </div>
+        <br>
+        <div>
+            <label for="my-email">Email: </label>
+            <input type="email" name="myEmail" id="my-email" placeholder="Enter your Email">
+        </div>
+        <br>
+        <div>
+            Male: <input type="radio" name="myGender" value="Male"> <br>
+            Female: <input type="radio" name="myGender" value="Female">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="isEligible" id="">
+        </div>
+        <br>
+        <div>
+            <label for="my-birthday">Your Birthday: </label>
+            <input type="date" name="myBirthday" id="my-birthday">
+        </div>
+        <br>
+        <div>
+            <label for="my-textarea">Write something about yourself</label>
+            <textarea name="" id="my-textarea" rows="5" cols="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
