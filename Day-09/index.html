@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+
+    <style>
+        input[type="text"] {
+            border: 2px solid red;
+        }
+
+        input[type="passowrd"] {
+            border: 2px dotted green;
+        }
+
+        div > p{
+            color: blue;
+        }
+
+        a:hover{
+            color:red;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+
+        li:nth-child(3){
+            background-color: aqua;
+        }
+
+        li:nth-child(2){
+            color: blueviolet;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        div:not(.class1) {
+            border: 2px dashed red;
+        }
+
+        .decorated::before {
+            content: "STAR ";
+            color: blue;
+        }
+
+        .decorated1::after {
+            content:"STAR";
+            color: blue;
+        }
+            
+    </style>
+</head>
+<body>
+    
+    <input type="text" name="" id=""><br><br>
+    <input type="text" name="" id=""><br><br>
+    <input type="password" name="" id=""><br><br>
+
+    <ul>
+        <li>Noodles</li>
+        <li>Chocolates</li>
+        <li>Fruits</li>
+    </ul>
+
+    <div>
+        <p>Homeground</p>
+        <a href="">Link to Homeground</a>
+    </div>
+
+    <p>Hello World....</p>
+
+    <a href="#google">Please Click</a>
+
+    <div class="class1">Div 1</div>
+    <div class="class2">Div 2</div>
+
+    <div class="decorated">Content</div>
+    <div class="decorated1">Content</div>
+</body>
+</html>
